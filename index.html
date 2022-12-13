@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app.css" />
+    <link rel="icon" href="./img/list.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main class="container">
+      <img src="./img/to-do-list.png" alt="" width="100rem" height="100rem" >
+      <header><strong>To Do List</strong></header>
+      <div class="today"></div>
+      <section class="todo-add">
+        <input type="text" id="todo-input" placeholder="Add New Todo..." />
+        <button type="submit" id="todo-button">Add</button>
+      </section>
+      <center>
+        <div class="alertmsg">
+        </div>
+      </center>
+      <section class="todos">
+        <ul id="todo-ul"></ul>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div>
+        <div class="dev">
+          <img src="./img/developer (1).png" width="70rem" height="70rem" alt="">
+          <small>Coded by Hilal Dedek
+          </small>
+        </div>
+        <center>
+          <div class="contact">
+            <button><img src="./img/linkedin.png" alt="" width="30rem" height="30rem"><a href="https://www.linkedin.com/in/hil%C3%A2ldedek/" target="_blank"> Linkedin</a></button>
+            <button><img src="./img/github.png" alt="" width="30rem" height="30rem"> <a href="https://github.com/hilaldedek" target="_blank"> Github</a></button>
+          </div>
+        </center>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
