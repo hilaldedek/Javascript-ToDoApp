@@ -5,4 +5,4 @@
 
 -If no data is entered, "Please enter an item!" error message disappears after 5 seconds on the screen.
 
-View Demo[https://hilaldedek.github.io/Javascript-ToDoApp/]
+[View Demo](https://hilaldedek.github.io/Javascript-ToDoApp/)
